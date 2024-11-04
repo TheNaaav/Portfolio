@@ -1,5 +1,6 @@
 import travel from '../assets/travel.gif';
 import square from '../assets/square.gif';
+import thai from '../assets/thai.jpg';
 
 
 export const text: { [key: string]: { name: string; title: string; passion: string; Resume: string } } = {
@@ -33,6 +34,11 @@ export const projects = {
       name: "SquareGenerator",
       link: "https://github.com/TheNaaav/SquareGenerator",
       image: square,
+    },
+    {
+      name: "Sathon Thai Massage",
+      link: "https://sathon-thai-massage.vercel.app/",
+      image: thai,
     },
   ],
 };
