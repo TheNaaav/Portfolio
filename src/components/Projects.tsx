@@ -1,4 +1,3 @@
-import React from 'react';
 import { projects } from '../data/index';
 
 export const Projects = () => {

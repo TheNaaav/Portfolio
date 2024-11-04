@@ -1,7 +1,7 @@
 import { text } from "../data";
 
 const ResumeButton: React.FC<{ language: string }> = ({ language }) => {
-    const resumeLink = language === 'en' ? '/Resume_EN.pdf' : '/Resume_SV.pdf';
+    const resumeLink = language === 'en' ? '/ResumeEN.pdf' : '/ResumeSV.pdf';
   
     return (
       <div className="mt-4">
