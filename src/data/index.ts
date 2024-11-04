@@ -26,7 +26,7 @@ export const projects = {
   projects: [
     {
       name: "Mystery-Travel",
-      link: "https://github.com/TheNaaav/Mystery-Travel",
+      link: "https://mystery-travel.vercel.app/",
       image: travel,
     },
     {
