@@ -32,7 +32,7 @@ export const projects = {
     },
     {
       name: "SquareGenerator",
-      link: "https://github.com/TheNaaav/SquareGenerator",
+      link: "https://squaregenerator.vercel.app/",
       image: square,
     },
     {
