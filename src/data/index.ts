@@ -37,7 +37,7 @@ export const projects = {
     },
     {
       name: "Sathon Thai Massage",
-      link: "https://sathon-thai-massage.vercel.app/",
+      link: "https://www.sathon-thaimassage.se/",
       image: thai,
     },
   ],
