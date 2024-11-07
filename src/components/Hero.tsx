@@ -4,6 +4,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { text , socialLinks } from '../data/index';
 import LanguageSwitcher from './languageSwitcher';
 import ResumeButton from './ResumeButton';
+import Me from '../assets/Me.png';
 
 function Hero() {
   const [language, setLanguage] = useState('en'); 
@@ -14,7 +15,7 @@ function Hero() {
     <div className="flex flex-col md:flex-row justify-center items-center w-full max-w-4xl min-h-screen gap-10">
       <div className="flex justify-center mb-6 md:mb-0 mt-20">
         <img 
-          src="public/imgaes/Me.png"
+          src={Me}
           alt="Naruebet Singsathon" 
           className="rounded-full w-32 h-32 md:w-80 md:h-80 object-cover shadow-lg transition-transform duration-300 transform hover:scale-110" 
         />
