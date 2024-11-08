@@ -7,7 +7,6 @@ import ResumeButton from './ResumeButton';
 
 function Hero() {
   const [language, setLanguage] = useState('en'); 
-
   return (
     <section id="hero" className="flex flex-col justify-center items-center relative ">
     <LanguageSwitcher setLanguage={setLanguage} />

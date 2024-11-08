@@ -1,6 +1,6 @@
 import { skills } from '../data/index';
-
-export const Skills = () => {
+const Skills = () => {
+  
   return (
     <section id="skills" className="flex flex-col justify-center items-center text-white text-3xl py-10">
       <h1 className='text-3xl md:text-5xl font-bold text-green-400 text-center mb-6'>
@@ -16,3 +16,5 @@ export const Skills = () => {
     </section>
   );
 };
+
+export default Skills;

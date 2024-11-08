@@ -7,13 +7,13 @@ export const text: { [key: string]: { name: string; title: string; passion: stri
   en: {
     name: "Naruebet Singsathon",
     title: "Fullstack Web Developer",
-    passion: "With a passion for developing",
+    passion: "Fresh out of school, pumped to build awesome web stuff—and yes, still googling 'how to center a div.' Ready, excited, and fueled by late-night bug fixes!",
     Resume: "Resume",
-  },
+  }, 
   sv: {
     name: "Naruebet Singsathon",
     title: "Fullstack Webbutvecklare",
-    passion: "Med en passion för utveckling",
+    passion: "Färsk från skolan, taggad på att skapa coola webbprojekt – och japp, fortfarande lite lost när det gäller att centrera en div. Nyfiken, engagerad och laddad för sena kvällar med buggar!",
     Resume: "Resume",
   },
 };
@@ -55,5 +55,6 @@ export const skills = [
   "React",
   "Microservices",
   "TypeScript",
-  "Tailwind",
+  "Tailwind CSS",
+  
 ];
