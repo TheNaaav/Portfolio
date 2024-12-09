@@ -1,6 +1,8 @@
 import travel from '../assets/travel.gif';
 import square from '../assets/square.gif';
 import thai from '../assets/thai.jpg';
+import phun1 from '../assets/lotuspurple.png';
+import phun2 from '../assets/lotus.jpg';
 
 
 export const text: { [key: string]: { name: string; title: string; passion: string; Resume: string } } = {
@@ -39,6 +41,16 @@ export const projects = {
       name: "Sathon Thai Massage",
       link: "https://www.sathon-thaimassage.se/",
       image: thai,
+    },
+    {
+      name: "Phun Thai Massage",
+      link: "https://phun-thai-massage.vercel.app/",
+      image: phun1,
+    },
+    {
+      name: "Phun Thai Massage 2",
+      link: "https://phun-thai-massage-2.vercel.app/",
+      image: phun2,
     },
   ],
 };

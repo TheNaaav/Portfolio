@@ -5,7 +5,7 @@ interface ResumeButtonProps {
 }
 
 const ResumeButton = ({ language }: ResumeButtonProps) => {
-  const resumeLink = language === 'en' ? '/ResumeEN.pdf' : '/ResumeSV.pdf';
+  const resumeLink = language === 'en' ? '/ResumeSV.pdf' : '/ResumeSV.pdf';
 
   return (
     <div className="mt-4">

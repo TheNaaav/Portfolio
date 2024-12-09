@@ -6,7 +6,7 @@ export const Projects = () => {
         <h1 className='text-7xl font-bold text-green-400'>
           Projects
         </h1>
-      <div className="mt-4 flex flex-col md:flex-row gap-6 md:gap-x-24 py-20">
+      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 py-20">
         {projects.projects.map((project, index) => (
           <a 
             key={index} 
