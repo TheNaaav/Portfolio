@@ -44,12 +44,12 @@ export const projects = {
     },
     {
       name: "Phun Thai Massage",
-      link: "https://phun-thai-massage.vercel.app/",
+      link: "https://www.phun-thai-massage.se/",
       image: phun1,
     },
     {
       name: "Phun Thai Massage 2",
-      link: "https://phun-thai-massage-2.vercel.app/",
+      link: "https://www.phun-thai-massage-2.se/",
       image: phun2,
     },
   ],
