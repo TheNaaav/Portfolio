@@ -3,6 +3,7 @@ import square from '../assets/square.gif';
 import thai from '../assets/thai.jpg';
 import phun1 from '../assets/lotuspurple.png';
 import phun2 from '../assets/lotus.jpg';
+import diamond from '../assets/Diamond.png';
 
 
 export const text: { [key: string]: { name: string; title: string; passion: string; Resume: string } } = {
@@ -52,6 +53,11 @@ export const projects = {
       link: "https://www.phun-thai-massage-2.se/",
       image: phun2,
     },
+    {
+      name: "Diamond Thai Massage",
+      link: "https://www.diamond-thaimassage.se/",
+      image: diamond,
+    },
   ],
 };
 
@@ -68,5 +74,4 @@ export const skills = [
   "Microservices",
   "TypeScript",
   "Tailwind CSS",
-  
 ];
