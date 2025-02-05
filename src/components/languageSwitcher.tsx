@@ -1,28 +1,21 @@
-import React from 'react';
-
 interface LanguageSwitcherProps {
   setLanguage: (lang: string) => void;
 }
 
 const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ setLanguage }) => {
   return (
-    <div className="absolute top-5 right-5 flex space-x-2">
-      <img
-        src="/images/flag-en.png"
-        alt="English"
-        className="w-8 h-8 cursor-pointer hover:opacity-80"
-        onClick={() => setLanguage('en')}
-      />
-      <img
-        src="/images/flag-sv.png"
-        alt="Svenska"
-        className="w-8 h-8 cursor-pointer hover:opacity-80"
-        onClick={() => setLanguage('sv')}
-      />
+    <div className="flex gap-2">
+      {["sv", "en"].map((lang) => (
+        <button
+          key={lang}
+          onClick={() => setLanguage(lang)}
+          className="px-3 py-1 rounded-lg text-sm font-medium bg-gray-200 hover:bg-gray-300"
+        >
+          {lang === "sv" ? "🇸🇪 SV" : "🇬🇧 EN"}
+        </button>
+      ))}
     </div>
   );
 };
 
 export default LanguageSwitcher;
-
-

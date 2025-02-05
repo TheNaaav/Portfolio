@@ -1,28 +1,55 @@
 import { projects } from '../data/index';
+import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../data/index';
 
 export const Projects = () => {
+
+    const { language } = useLanguage();
+    const currentLanguage = translations[language] ? language : 'sv'; 
+    
   return (
-    <section id="projects" className="flex flex-col justify-center items-center text-white text-3xl">
-        <h1 className='text-7xl font-bold text-green-400'>
-          Projects
+    <section id="projects" className="relative py-20">
+      <div className="mx-auto max-w-6xl px-4">
+        <h1 className="mb-16 text-center text-5xl font-bold text-white">
+          <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+          {translations[currentLanguage].projects} 
+          </span>
         </h1>
-      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 py-20">
-        {projects.projects.map((project, index) => (
-          <a 
-            key={index} 
-            href={project.link} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-lg transition duration-200 py-2 block"
-          >
-            <img 
-              src={project.image} 
-              alt={project.name} 
-              className="w-32 h-32 md:w-48 md:h-48 object-cover shadow-lg transition-transform duration-300 transform hover:scale-110 mx-auto"
-            />
-            <span className='mt-2 font-bold'>{project.name}</span>
-          </a>
-        ))}
+
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {projects.projects.map((project, index) => (
+            <a
+              key={index}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative overflow-hidden rounded-3xl bg-white/5 transition-all hover:-translate-y-2 hover:shadow-xl"
+            >
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.name}
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+              
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-white">{project.name}</h3>
+                <p className="text-gray-300">{project.description}</p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {project.techStack.map((tech, techIndex) => (
+                    <span 
+                      key={techIndex}
+                      className="rounded-full bg-white/10 px-3 py-1 text-sm text-white"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   );

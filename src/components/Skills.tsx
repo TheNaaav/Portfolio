@@ -1,17 +1,41 @@
-import { skills } from '../data/index';
+import { skills, translations} from '../data';
+import { skillsData } from './SkillsIcons';
+import { useLanguage } from '../context/LanguageContext';
+
 const Skills = () => {
-  
+  const { language } = useLanguage();
+
+  const currentLanguage = translations[language] ? language : 'sv'; 
+
   return (
-    <section id="skills" className="flex flex-col justify-center items-center text-white text-3xl py-10">
-      <h1 className='text-3xl md:text-5xl font-bold text-green-400 text-center mb-6'>
-        Skills
-      </h1>
-      <div className="mt-4 flex flex-wrap justify-center gap-6 md:gap-x-24 py-5">
-        {skills.map((skill, index) => (
-          <div key={index} className="flex-shrink-0 w-40 p-4  text-center">
-            <h2 className="text-lg md:text-xl">{skill}</h2>
-          </div>
-        ))}
+    <section id="skills" className="relative py-20">
+      <div className="mx-auto max-w-6xl px-4">
+        <h1 className="mb-16 text-center text-5xl font-bold text-white">
+          <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+            {translations[currentLanguage].skill} 
+          </span>
+        </h1>
+
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-6">
+          {skills.map((skill) => {
+            // Hitta motsvarande ikon i skillsData baserat på namn
+            const skillIcon = skillsData.find((s) => s.name === skill.name)?.icon;
+
+            return (
+              <div 
+                key={skill.name}
+                className="flex flex-col items-center gap-4 rounded-2xl bg-white/5 p-6 backdrop-blur-sm transition-all hover:bg-white/10"
+              >
+                <div className="text-4xl">
+                  {skillIcon || "❓"} {/* Om ingen ikon hittas, visa en placeholder */}
+                </div>
+                <h3 className="text-center text-lg font-medium text-white">
+                  {skill.name}
+                </h3>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

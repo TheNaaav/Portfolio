@@ -1,23 +1,25 @@
-import { text } from "../data";
+import { translations } from "../data";
 
 interface ResumeButtonProps {
   language: string;
 }
 
 const ResumeButton = ({ language }: ResumeButtonProps) => {
-  const resumeLink = '/ResumeSV.pdf';
+  
+  const resumeFile = language === 'sv' ? '/ResumeSV.pdf' : '/ResumeEN.pdf';
 
   return (
-    <div className="mt-4">
-      <a 
-        href={resumeLink}  
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="inline-block px-6 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 transition duration-200"
-      >
-        {language === 'en' ? text.en.Resume : text.sv.Resume} 
-      </a>
-    </div>
+    <a 
+      href={resumeFile}  
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-green-400 to-blue-500 px-8 py-4 text-lg font-semibold text-white transition-all hover:scale-105 hover:shadow-lg"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+      </svg>
+      {translations[language].Resume}
+    </a>
   );
 };
 
