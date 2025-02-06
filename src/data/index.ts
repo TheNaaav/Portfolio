@@ -39,7 +39,7 @@ export const translations: {
     contactcopy: 'Copied!',
     contactDescription: 'Feel free to drop me an email for collaborations, questions, or just to say hello! I’m always open to new opportunities and interesting projects.',
     reachOut: 'I look forward to connecting with you soon!',
-    name: "Building the impossible, one idea at a time",
+    name: "Turning ideas into reality",
     passion: `Hey there! I'm Naruebet Singsathon, a Full Stack Web Developer who loves tackling problems and making tech that’s easy to use and understand.
     My go-to tools are React, TypeScript, and Node.js, but I’m always on the lookout for new tech to play with and see how it can make a project even better!
     I'm also super excited about AI and all things innovation — it keeps me on my toes, sparking new ideas and creative solutions.
@@ -70,7 +70,7 @@ I’m a calm and balanced person who enjoys finding harmony in everyday life. Sp
     contactcopy: 'Kopierad!',
     contactDescription: 'Tveka inte att skicka ett mejl för samarbeten, frågor eller bara för att säga hej! Jag är alltid öppen för nya möjligheter och intressanta projekt.',
     reachOut: 'Ser fram emot att höra från dig snart!',
-    name: "Bygger det omöjliga, en idé i taget",
+    name: "Från idé till verklighet",
     passion: `Hej! Jag heter Naruebet Singsathon och är en Full Stack Webb Utvecklare som älskar att lösa problem och skapa tekniska lösningar som är lätta att använda och förstå.
     Mina favoritverktyg är React, TypeScript och Node.js, men jag är alltid på jakt efter nya teknologier för att se vad som kan göra ett projekt ännu bättre!
     Jag är också riktigt taggad på AI och innovation — det får mig att tänka utanför boxen och experimentera med nya idéer.

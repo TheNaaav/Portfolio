@@ -26,8 +26,8 @@ function Hero() {
 
         {/* Content */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
-          <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+          <h1 className="text-2xl font-bold text-gray-300 md:text-3xl lg:text-4xl">
+            <span className="">
               {translations[currentLanguage].name} 
             </span>
           </h1>
@@ -60,7 +60,7 @@ function Hero() {
           <ResumeButton language={currentLanguage} /> 
 
           {/* Get to Know Me Button */}
-          <div className="mt-8">
+          <div className="mt-8 px-4 md:px-0 flex flex-col items-start py-3">
             <button 
               onClick={toggleDropdown} 
               className="px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition duration-200"
@@ -70,7 +70,7 @@ function Hero() {
 
             {/* Drop-down content */}
             {isOpen && (
-              <div className="mt-6 bg-gray-800/60 p-6 rounded-lg shadow-lg space-y-6 transition-all duration-300 opacity-90 transform scale-105">
+              <div className="mt-20 lg:mt-10 bg-gray-800/60 p-6 rounded-lg shadow-lg space-y-6 transition-all duration-300 opacity-90 transform scale-105">
                 <div>
                   <h3 className="font-semibold text-xl text-white">{translations[currentLanguage].hobbiesTitle}</h3>
                   <p className="text-gray-300 whitespace-pre-line">{translations[currentLanguage].hobbies}</p>
