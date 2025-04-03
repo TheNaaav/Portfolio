@@ -4,6 +4,7 @@ import thai from '../assets/thai.jpg';
 import phun1 from '../assets/lotuspurple.png';
 import phun2 from '../assets/lotus.jpg';
 import diamond from '../assets/Diamond.png';
+import ScheduleOne from '../assets/ScheduleOne.png';
 
 
 
@@ -114,6 +115,13 @@ export const projects = {
       image: square,
       description: "testing square generator",
       techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel"]
+    },
+    {
+      name: "ScheduleBoost – Mod Menu for Schedule I",
+      link: "https://github.com/TheNaaav/ScheduleBoost/",
+      image: ScheduleOne,
+      description: "A powerful in-game mod menu for Schedule I. Built with MelonLoader, the mod adds features like instant crafting, XP boosts, teleportation, and item spawning via a custom GUI.",
+      techStack: ["C#", ".NET", "MelonLoader", "Harmony", "UnityEngine (Il2Cpp)"]
     },
     {
       name: "Sathon Thai Massage",
