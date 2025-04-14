@@ -6,7 +6,7 @@ interface ResumeButtonProps {
 
 const ResumeButton = ({ language }: ResumeButtonProps) => {
   
-  const resumeFile = language === 'sv' ? '/ResumeSV.pdf' : '/ResumeEN.pdf';
+  const resumeFile = language === 'sv' ? '/Min_CV_2025.pdf' : '/Min_CV_2025.pdf';
 
   return (
     <a 
