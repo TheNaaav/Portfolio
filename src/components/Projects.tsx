@@ -28,7 +28,7 @@ export const Projects = () => {
               </div>
 
               <div className="p-6">
-                <h3 className="mb-2 text-xl font-bold text-white">{project.name}</h3>
+              <h2 className="mb-2 text-xl font-bold text-white">{project.name}</h2>
                 <p className="text-gray-300">{project.description}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.techStack.map((tech, techIndex) => (

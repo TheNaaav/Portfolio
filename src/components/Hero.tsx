@@ -23,15 +23,16 @@ function Hero() {
 
           {/* Sociala länkar */}
           <div className="mt-6 flex gap-4">
-            {[ 
-              { icon: faGithub, href: socialLinks.github },
-              { icon: faLinkedin, href: socialLinks.linkedin }
+            {[
+              { icon: faGithub, href: socialLinks.github, label: "Besök min GitHub-profil" },
+              { icon: faLinkedin, href: socialLinks.linkedin, label: "Besök min LinkedIn-profil" }
             ].map((link, index) => (
               <a
                 key={index}
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={link.label}
                 className="rounded-full bg-white/10 p-4 hover:bg-white/20 transition-all"
               >
                 <FontAwesomeIcon 
@@ -41,7 +42,6 @@ function Hero() {
               </a>
             ))}
           </div>
-
           <div className="mt-8 px-4 md:px-0 flex flex-col items-start py-3">
             <ResumeButton />
           </div>
