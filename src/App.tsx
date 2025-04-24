@@ -6,22 +6,19 @@ import './index.css'
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react"
 import { Header } from "./components/Header";
-import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
   return (
-    <div className="bg-linear-to-r from-purple-600 to-blue-900">
-      <Analytics />
-      <LanguageProvider>
-      <Header />
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white rounded-lg shadow-lg">
+     <Analytics />
+     <Header />
      <Hero/>
-     <div className="mt-10 ">
+     <div className="mt-10">
      <Projects/>
      <Skills/>
      <Contact/>
      </div>
      <Footer/>
-      </LanguageProvider>
     </div>
   );
 }

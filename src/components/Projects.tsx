@@ -1,18 +1,12 @@
 import { projects } from '../data/index';
-import { useLanguage } from '../context/LanguageContext';
-import { translations } from '../data/index';
 
 export const Projects = () => {
-
-    const { language } = useLanguage();
-    const currentLanguage = translations[language] ? language : 'sv'; 
-    
   return (
     <section id="projects" className="relative py-20">
       <div className="mx-auto max-w-6xl px-4">
         <h1 className="mb-16 text-center text-5xl font-bold text-white">
           <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-          {translations[currentLanguage].projects} 
+            Projekts
           </span>
         </h1>
 
@@ -32,7 +26,7 @@ export const Projects = () => {
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
-              
+
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-white">{project.name}</h3>
                 <p className="text-gray-300">{project.description}</p>
