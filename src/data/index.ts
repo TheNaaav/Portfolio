@@ -19,6 +19,14 @@ export const socialLinks = {
 export const projects = {
   projects: [
     {
+      name: "ScheduleBoost – Mod Menu for Schedule I",
+      link: "https://www.nexusmods.com/schedule1/mods/213",
+      image: ScheduleOne,
+      description:
+        "A powerful in-game mod menu for Schedule I. Built with MelonLoader, it adds features like instant crafting, XP boosts, teleportation, and item spawning via a custom GUI.",
+      techStack: ["C#", ".NET", "MelonLoader", "Harmony", "UnityEngine (Il2Cpp)"]
+    },
+    {
       name: "Mystery-Travel",
       link: "https://mystery-travel.vercel.app/",
       image: travel,
@@ -31,14 +39,6 @@ export const projects = {
       image: square,
       description: "Testing square generator",
       techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel"]
-    },
-    {
-      name: "ScheduleBoost – Mod Menu for Schedule I",
-      link: "https://www.nexusmods.com/schedule1/mods/213",
-      image: ScheduleOne,
-      description:
-        "A powerful in-game mod menu for Schedule I. Built with MelonLoader, it adds features like instant crafting, XP boosts, teleportation, and item spawning via a custom GUI.",
-      techStack: ["C#", ".NET", "MelonLoader", "Harmony", "UnityEngine (Il2Cpp)"]
     },
     {
       name: "Sathon Thai Massage",
@@ -83,6 +83,12 @@ export const skills = [
   { name: "Microservices" },
   { name: "Responsive Design" },
   { name: "REST APIs" },
-  { name: "CMS" }
+  { name: "CMS" },
+  { name: "JavaScript"},
+  { name: "HTML" },
+  { name: "CSS" },
+  { name: "GitHub" },
+  { name: "Agile" },
+  { name: "Vercel" },
 ];
 
