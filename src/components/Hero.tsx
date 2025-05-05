@@ -11,9 +11,9 @@ function Hero() {
       <div className="mx-auto flex w-full max-w-6xl flex-col-reverse md:flex-row items-center justify-between gap-12">
         {/* Innehåll */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left max-w-xl">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text mb-4">
-            Förverkligar idéer
-          </h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text leading-tight">
+          Skapar magi med kod och AI
+        </h1>
           <p className="text-base md:text-lg text-gray-300 leading-relaxed">
             Hej! Jag heter Naruebet — men du kan kalla mig VibeCoding. Jag är en fullstackutvecklare som kodar med flow, kreativitet och nyfikenhet. <br />
             Jag jobbar främst med React, TypeScript, ASP.NET, C# och SQL, men jag brinner för att kombinera kod och AI — smarta verktyg för smarta lösningar. <br />
