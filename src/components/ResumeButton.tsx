@@ -1,5 +1,5 @@
 const ResumeButton = () => {
-  const resumeFile = "/Naruebet_Singsathon_CV.pdf";
+  const resumeFile = "/MinCV.docx";
 
   return (
     <a 

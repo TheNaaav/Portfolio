@@ -7,6 +7,7 @@ import phun1 from '../assets/lotuspurple.png';
 import phun2 from '../assets/lotus.jpg';
 import diamond from '../assets/Diamond.png';
 import ScheduleOne from '../assets/ScheduleOne.png';
+import iconCMTK from '../assets/iconCMTK.png';
 
 
 // social links
@@ -18,6 +19,13 @@ export const socialLinks = {
 // project list
 export const projects = {
   projects: [
+    {
+      name: "Chiang Mai Thai Kitchen",
+      link: "https://www.chiangmaithaikitchen.se/",
+      image: iconCMTK,
+      description: "Restaurant website for Chiang Mai Thai Kitchen",
+      techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Google Maps API"]
+    },
     {
       name: "ScheduleBoost – Mod Menu for Schedule I",
       link: "https://www.nexusmods.com/schedule1/mods/213",

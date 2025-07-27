@@ -51,7 +51,7 @@ function Hero() {
         <div className="group relative h-64 w-64 shrink-0 md:h-80 md:w-80">
           <div className="absolute inset-0 -rotate-6 rounded-full bg-gradient-to-br from-purple-500 to-blue-600 opacity-50 transition-all duration-500 group-hover:rotate-0"></div>
           <img 
-            src="/images/naruebet.png"
+            src="/images/Me.jpg"
             alt="Naruebet Singsathon" 
             className="relative z-10 h-full w-full rounded-full object-cover shadow-2xl transition-transform duration-500 hover:scale-105" 
           />
