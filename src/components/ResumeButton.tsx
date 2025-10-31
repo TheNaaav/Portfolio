@@ -1,5 +1,5 @@
 const ResumeButton = () => {
-  const resumeFile = "/MinCV.docx";
+  const resumeFile = "/CV_sv.pdf";
 
   return (
     <a 
