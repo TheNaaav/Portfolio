@@ -3,8 +3,6 @@
 import travel from '../assets/travel.gif';
 import square from '../assets/square.gif';
 import thai from '../assets/thai.jpg';
-import phun1 from '../assets/lotuspurple.png';
-import phun2 from '../assets/lotus.jpg';
 import diamond from '../assets/Diamond.png';
 import ScheduleOne from '../assets/ScheduleOne.png';
 import iconCMTK from '../assets/iconCMTK.png';
@@ -19,6 +17,13 @@ export const socialLinks = {
 // project list
 export const projects = {
   projects: [
+    {
+      name: "Hacker News",
+      link: "https://hacker-news-eta-one.vercel.app/",
+      image: diamond,
+      description: "Just News Update",
+      techStack: ["TypeScript", "SCSS", "Vercel", "Hacker News API"]
+    },
     {
       name: "Chiang Mai Thai Kitchen",
       link: "https://www.chiangmaithaikitchen.se/",
@@ -50,32 +55,11 @@ export const projects = {
     },
     {
       name: "Sathon Thai Massage",
-      link: "https://www.sathon-thaimassage.se/",
+      link: "https://sathon-thaimassage.vercel.app/",
       image: thai,
       description: "Professional massage",
       techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Google Maps API"]
-    },
-    {
-      name: "Phun Thai Massage",
-      link: "https://www.phun-thai-massage.se/",
-      image: phun1,
-      description: "Professional massage",
-      techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Google Maps API"]
-    },
-    {
-      name: "Phun Thai Massage 2",
-      link: "https://www.phun-thai-massage-2.se/",
-      image: phun2,
-      description: "Professional massage",
-      techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Google Maps API"]
-    },
-    {
-      name: "Diamond Thai Massage",
-      link: "https://www.diamond-thaimassage.se/",
-      image: diamond,
-      description: "Professional massage",
-      techStack: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Google Maps API"]
-    },
+    }
   ],
 };
 

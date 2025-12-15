@@ -15,10 +15,13 @@ function Hero() {
           Skapar magi med kod och AI
         </h1>
           <p className="text-base md:text-lg text-gray-300 leading-relaxed">
-            Hej! Jag heter Naruebet — men du kan kalla mig VibeCoding. Jag är en fullstackutvecklare som kodar med flow, kreativitet och nyfikenhet. <br />
-            Jag jobbar främst med React, TypeScript, ASP.NET, C# och SQL, men jag brinner för att kombinera kod och AI — smarta verktyg för smarta lösningar. <br />
-            Jag trivs när jag får bygga användarvänliga gränssnitt eller experimentera med automation och maskininlärning. <br />
-            För mig handlar kodning om energi, tydlighet och att skapa något som känns bra att använda.
+              Hej! Jag heter Naruebet, men kallas ofta VibeCoding.
+              Jag är en junior fullstackutvecklare som gillar att bygga saker som är enkla att använda och roliga att jobba med.
+              
+              Jag arbetar främst med React, TypeScript, ASP.NET, C# och SQL, och är extra nyfiken på hur man kan använda AI och automation för att skapa smartare lösningar.
+
+              Jag trivs med att bygga användarvänliga gränssnitt, testa nya idéer och hela tiden lära mig mer.
+              För mig handlar kod om tydlighet, kreativitet och att skapa något som faktiskt gör nytta.
           </p>
 
           {/* Sociala länkar */}
