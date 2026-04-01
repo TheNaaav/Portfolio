@@ -6,7 +6,8 @@ import thai from '../assets/thai.jpg';
 import ScheduleOne from '../assets/ScheduleOne.png';
 import iconCMTK from '../assets/iconCMTK.png';
 import HackerNews from '../assets/HackerNews.png';
-import StarWar from '../assets/starwar.png' 
+import Starwar from '../assets/starwar.png';
+
 
 
 // social links
@@ -21,7 +22,7 @@ export const projects = {
     {
       name: "Star Wars Encyclopedia",
       link: "https://star-wars-encyclopedia-gamma.vercel.app/",
-      image: StarWar,
+      image: Starwar,
       description: "A fun project to explore the Star Wars universe.",
       techStack: ["React", "TypeScript", "Vercel", "SWAPI"]
     },
