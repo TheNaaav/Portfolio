@@ -6,7 +6,7 @@ import thai from '../assets/thai.jpg';
 import ScheduleOne from '../assets/ScheduleOne.png';
 import iconCMTK from '../assets/iconCMTK.png';
 import HackerNews from '../assets/HackerNews.png';
-import StarWar from '../assets/starwar.png' // Ändra så det exakt matchar filnamnet på GitHub
+import StarWar from '../assets/starwar.png' 
 
 
 // social links
