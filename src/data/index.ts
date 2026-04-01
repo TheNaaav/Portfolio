@@ -1,11 +1,12 @@
-// assets
 
+// assets
 import travel from '../assets/travel.gif';
 import square from '../assets/square.gif';
 import thai from '../assets/thai.jpg';
-import diamond from '../assets/Diamond.png';
 import ScheduleOne from '../assets/ScheduleOne.png';
 import iconCMTK from '../assets/iconCMTK.png';
+import HackerNews from '../assets/HackerNews.png';
+import StarWar from '../assets/StarWar.png'
 
 
 // social links
@@ -18,10 +19,17 @@ export const socialLinks = {
 export const projects = {
   projects: [
     {
+      name: "Star Wars Encyclopedia",
+      link: "https://star-wars-encyclopedia-gamma.vercel.app/",
+      image: StarWar,
+      description: "A fun project to explore the Star Wars universe.",
+      techStack: ["React", "TypeScript", "Vercel", "SWAPI"]
+    },
+    {
       name: "Hacker News",
       link: "https://hacker-news-eta-one.vercel.app/",
-      image: diamond,
-      description: "Just News Update",
+      image: HackerNews,
+      description: " A simple Hacker News client to browse top stories and comments.",
       techStack: ["TypeScript", "SCSS", "Vercel", "Hacker News API"]
     },
     {
