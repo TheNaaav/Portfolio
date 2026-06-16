@@ -1,4 +1,4 @@
-import { FaMobileAlt, FaReact, FaDatabase } from 'react-icons/fa';
+import { FaMobileAlt, FaReact, FaDatabase, FaMagic } from 'react-icons/fa';
 import {
   SiTailwindcss,
   SiTypescript,
@@ -17,6 +17,7 @@ import {
 import { Skill } from '../data/types';
 
 export const skillsData: Skill[] = [
+  { name: "AI", icon: <FaMagic className="text-purple-400" /> },
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-400" /> },

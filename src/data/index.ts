@@ -7,6 +7,7 @@ import ScheduleOne from '../assets/ScheduleOne.png';
 import iconCMTK from '../assets/iconCMTK.png';
 import HackerNews from '../assets/HackerNews.png';
 import starwar from '../assets/starwar.png';
+import rakthai from '../assets/rakthai.png';
 
 
 
@@ -19,6 +20,13 @@ export const socialLinks = {
 // project list
 export const projects = {
   projects: [
+    {
+      name: "Rak Thai Massage & Spa",
+      link: "https://rakthaimassage.se/",
+      image: rakthai,
+      description: "A professional massage and spa website.",
+      techStack: ["React", "TypeScript", "Vercel", "Google Maps API", "SEO Optimization"]
+    },
     {
       name: "Star Wars Encyclopedia",
       link: "https://star-wars-encyclopedia-gamma.vercel.app/",
@@ -74,6 +82,7 @@ export const projects = {
 
 // skills list
 export const skills = [
+  { name: "AI" },
   { name: "React" },
   { name: "Tailwind CSS" },
   { name: "TypeScript" },
