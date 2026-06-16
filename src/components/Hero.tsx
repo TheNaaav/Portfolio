@@ -81,7 +81,7 @@ function Hero() {
           <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4 shadow-2xl backdrop-blur">
             <div className="relative overflow-hidden rounded-xl bg-slate-950">
               <img
-                src="/images/Me.jpg"
+                src="/images/me.png"
                 alt="Naruebet Singsathon"
                 className="aspect-[4/5] w-full object-cover object-center"
               />
