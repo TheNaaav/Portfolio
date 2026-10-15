@@ -4,6 +4,26 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 const experiences = [
   {
+    title: 'Frilansande webbutvecklare – Egna uppdrag',
+    place: 'Helsingborg',
+    period: 'Pågående',
+    points: [
+      'Bygger enklare webbplatser och hjälper till med mindre webbrelaterade uppdrag.',
+      'Jobbar med grundläggande uppsättning, design och strukturering.',
+      'Jobbar med mycket SEO-relaterat arbete sökmotoroptimering hjälper kunder sätta upp sin google-sidor för företag.',
+    ],
+  },
+  {
+    title: 'Praktik - Utvecklare',
+    place: 'Contentor, Helsingborg',
+    period: '2026',
+    points: [
+      'Jobbade med frontend-utveckling och enklare förbättringar av företagets interna hub.',
+      'Hjälpte till med felsökning och mindre justeringar i befintlig kod.',
+      'Deltog i möten och fick inblick i hur arbetsprocesser och kravhantering fungerar.',
+    ],
+  },
+  {
     title: 'Praktik - Optimizely & .NET',
     place: 'Avensia, Helsingborg',
     period: '2024',
@@ -26,7 +46,7 @@ const experiences = [
   {
     title: 'Kontorsvaktmästare',
     place: 'Helsingborgs kommun',
-    period: '2025 - pågående',
+    period: '2025 - 2026',
     points: [
       'Installerar datorutrustning och arbetsplatser.',
       'Löser praktiska problem snabbt och tar ansvar för daglig drift.',
